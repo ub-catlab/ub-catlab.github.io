@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.site-title::before {
+    content: url("../cl-tsp-full color-png.png");
+    display: inline-block;
+    position: relative;
+    width: 35px;
+    top: 5px;
+}
